@@ -1,14 +1,17 @@
 <template>
   <div id="app">
+    <home></home> 
     <foot></foot>  
   </div>
 </template>
 
 <script>
 import foot from './components/foot.vue'
+import home from './components/home/home.vue'
 export default {
   components: {
-    foot
+    foot,
+    home
   }
 }
 </script>

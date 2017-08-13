@@ -1,7 +1,7 @@
 <template>
   <div id="foot">
     <tabbar>
-      <tabbar-item>
+      <tabbar-item selected>
       	<i slot="icon" class="home"></i>
         <!-- <img slot="icon" src="../assets/icon_nav_button.png"> -->
         <span slot="label">重点监测</span>
@@ -11,7 +11,7 @@
         <!-- <img slot="icon" src="../assets/icon_nav_msg.png"> -->
         <span slot="label">舆情分析</span>
       </tabbar-item>
-      <tabbar-item selected link="/component/demo">
+      <tabbar-item link="/component/demo">
       	<i slot="icon" class="search"></i>
         <!-- <img slot="icon" src="../assets/icon_nav_article.png"> -->
         <span slot="label">高级搜索</span>
