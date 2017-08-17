@@ -1,10 +1,10 @@
 <template>
   <div id="foot">
     <tabbar>
-      <tabbar-item selected to="/">
+      <tabbar-item selected>
       	<i slot="icon" class="home"></i>
         <span slot="label">
-          <router-link to="/">重点监测</router-link>
+          <router-link to="/home/autoload">重点监测</router-link>
         </span>
       </tabbar-item>
       <tabbar-item>

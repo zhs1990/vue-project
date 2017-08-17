@@ -14,7 +14,8 @@
     "jquery-weui": "^1.0.1",
     "vue": "^2.3.3",
     "vue-router": "^2.6.0",
-    "vux": "^2.5.7"
+    "vux": "^2.5.7",
+    "weui": "^1.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

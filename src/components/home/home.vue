@@ -1,12 +1,11 @@
 <template>
   <div>
-    重点监测111
+  	<router-view></router-view>
+    
   </div>
 </template>
-
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style>
