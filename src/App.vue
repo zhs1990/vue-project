@@ -23,5 +23,7 @@ export default {
   a{
     text-decoration: none;
   }
-  
+  html,body{
+    font-size:20px;
+  }
 </style>
