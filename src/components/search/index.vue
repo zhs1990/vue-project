@@ -1,6 +1,6 @@
 <template>
   <div>
-    重点监测111
+	高级查询
   </div>
 </template>
 

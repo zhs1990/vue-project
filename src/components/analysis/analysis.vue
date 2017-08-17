@@ -1,6 +1,6 @@
 <template>
   <div>
-    重点监测111
+    舆情分析
   </div>
 </template>
 

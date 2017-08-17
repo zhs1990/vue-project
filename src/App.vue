@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <home></home> 
+    <router-view></router-view>
     <foot></foot>  
   </div>
 </template>
 
 <script>
 import foot from './components/foot.vue'
-import home from './components/home/home.vue'
 export default {
   components: {
-    foot,
-    home
+    foot
   }
 }
 </script>

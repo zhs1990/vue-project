@@ -1,25 +1,29 @@
 <template>
   <div id="foot">
     <tabbar>
-      <tabbar-item selected>
+      <tabbar-item selected to="/">
       	<i slot="icon" class="home"></i>
-        <!-- <img slot="icon" src="../assets/icon_nav_button.png"> -->
-        <span slot="label">重点监测</span>
+        <span slot="label">
+          <router-link to="/">重点监测</router-link>
+        </span>
       </tabbar-item>
       <tabbar-item>
       	<i slot="icon" class="analysis"></i>
-        <!-- <img slot="icon" src="../assets/icon_nav_msg.png"> -->
-        <span slot="label">舆情分析</span>
+        <span slot="label">
+          <router-link to="/analysis">舆情分析</router-link>
+        </span>
       </tabbar-item>
-      <tabbar-item link="/component/demo">
+      <tabbar-item>
       	<i slot="icon" class="search"></i>
-        <!-- <img slot="icon" src="../assets/icon_nav_article.png"> -->
-        <span slot="label">高级搜索</span>
+        <span slot="label">
+          <router-link to="/search">高级搜索</router-link>
+        </span>
       </tabbar-item>
       <tabbar-item>
       	<i slot="icon" class="personal"></i>
-        <!-- <img slot="icon" src="../assets/icon_nav_cell.png"> -->
-        <span slot="label">个人中心</span>
+        <span slot="label">
+          <router-link to="/personal">个人中心</router-link>
+        </span>
       </tabbar-item>
     </tabbar>
   </div>
@@ -44,10 +48,10 @@ export default {
   	background-repeat: no-repeat;
   	
   }
-  #foot span{
+  #foot a{
   	color:#7a7a7a;
   }
-  #foot .weui-bar__item_on span{
+  #foot .weui-bar__item_on a{
   	color:#ff3333;
   }
   i.home{

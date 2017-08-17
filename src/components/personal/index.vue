@@ -1,6 +1,6 @@
 <template>
   <div>
-    重点监测111
+  	个人中心
   </div>
 </template>
 
